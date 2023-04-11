@@ -10,10 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "flag")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .foregroundColor(.red)
+            Text("You can jail the revolutionary,\nbut you can't jail the revolution.\n\nYou can murder the liberator,\nbut you can't murder the liberation.")
+                .multilineTextAlignment(.center)
         }
         .padding()
     }
